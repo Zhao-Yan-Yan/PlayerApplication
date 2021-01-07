@@ -1,0 +1,3 @@
+include ':library_player'
+include ':app'
+rootProject.name = "PlayerApplication"
