@@ -12,35 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.zy.library_player.ui.ControlTopView
-        android:id="@+id/control_top"
+    <com.zy.library_player.BaseController
+        android:id="@+id/controller"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.zy.library_player.ui.ControlBottomView
-        android:id="@+id/control_bottom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent" />
-
-    <com.zy.library_player.ui.ControlLeftView
-        android:id="@+id/control_left"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:layout_constrainedHeight="true"
-        app:layout_constraintBottom_toTopOf="@id/control_bottom"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/control_top" />
-
-    <com.zy.library_player.ui.ControlRightView
-        android:id="@+id/control_right"
-        android:layout_width="50dp"
-        android:layout_height="match_parent"
-        app:layout_constrainedHeight="true"
-        app:layout_constraintBottom_toTopOf="@id/control_bottom"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/control_top" />
-
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
